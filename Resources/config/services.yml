@@ -10,6 +10,7 @@ services:
             annotations_reader: "@annotation_reader"
             symfony_finder: "@gearman.external.symfony_finder"
             gearman_bundles: "%gearman.bundles%"
+            gearman_resources: "%gearman.resources%"
             gearman_servers: "%gearman.servers%"
             gearman_default_settings: "%gearman.default.settings%"
 
